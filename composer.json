@@ -1,0 +1,17 @@
+{
+    "name": "ndara/poo_mvc_structure",
+    "autoload": {
+        "psr-4": {
+            "App\\Core\\": "Core/",
+            "App\\Models\\": "Models/",
+            "App\\Conntrollers\\": "Controllers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amédée Bishop",
+            "email": "ndarabumwoya@gmail.com"
+        }
+    ],
+    "require": {}
+}
