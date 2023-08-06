@@ -1,15 +1,18 @@
 <?php
 
-namespace App\Models;
+namespace App\Core;
 
-use App\Core\Db;
+use App\Core\Database;
 
-class Model extends Db
+/**
+ * Classe de modélisation de la base des données
+ */
+class Model extends Database
 {
     // Table de la base de données
     protected $table;
 
-    // Instance de Db
+    // Instance de Database
     private $db;
 
 

@@ -6,10 +6,13 @@ namespace App\Core;
 use PDO;
 use PDOException;
 
-class Db extends PDO
+/**
+ * Classe of DataBase
+ */
+class Database extends PDO
 {
     // Instance unique de la classe
-    private static $instance;
+        private static $instance;
 
     // Informations de connexion
     private const DBHOST = 'localhost';
@@ -34,7 +37,11 @@ class Db extends PDO
         }
     }
 
-
+    /**
+     * get Instance
+     *
+     * @return self
+     */
     public static function getInstance():self
     {
         if(self::$instance === null){

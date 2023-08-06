@@ -1,6 +1,8 @@
 <?php
 namespace App\Models;
 
+use IoT\Monitoring\Core\Model;
+
 class UsersModel extends Model
 {
     protected $id;

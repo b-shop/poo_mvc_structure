@@ -1,6 +1,8 @@
 <?php
 namespace App\Models;
 
+use IoT\Monitoring\Core\Model;
+
 class AnnoncesModel extends Model
 {   
     protected $id;
